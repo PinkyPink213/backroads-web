@@ -31,7 +31,7 @@ function Navbar() {
                             const { id, href, icon } = socialink
                             return (
                                 <li key={id}>
-                                    <a href={href} target="_blank" className="nav-icon"><i className={icon}></i ></a>
+                                    <a href={href} target="_blank" className="nav-icon" rel="noreferrer"><i className={icon}></i ></a>
                                 </li>
                             )
                         })
